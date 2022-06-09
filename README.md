@@ -8,7 +8,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
   - [Ansible Hosts](ansible/hosts.yml)
   - [Metricbeat Playbook](ansible/roles/metricbeat-playbook.yml)
-  - [Filebat Playbook](ansible/roles/filebeat-playbook.yml)
+  - [Filebeat Playbook](ansible/roles/filebeat-playbook.yml)
   - [Ansible Configuration](ansible/ansible.cfg)
   - [Metricbeat Configuration File](ansible/files/metricbeat-config.yml)
   - [Filebeat Configuration File](ansible/files/filebeat-config.yml)
@@ -42,7 +42,6 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
     network usage etc and send the information to the ELK stack for analysis
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name     | Function             | IP Address | Operating System |
 |----------|----------------------|------------|------------------|
